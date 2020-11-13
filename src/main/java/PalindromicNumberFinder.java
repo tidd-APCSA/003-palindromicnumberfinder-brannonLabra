@@ -35,6 +35,7 @@ public class PalindromicNumberFinder {
         return false;
       }
     
+    return reverse;
 
     }
 
@@ -46,7 +47,7 @@ public class PalindromicNumberFinder {
       for(int i = str1.length() - 1; i >= 0; i++){
         reverse += str1.charAt(i);
       }
-
+      return reverse;
 
     }
 
