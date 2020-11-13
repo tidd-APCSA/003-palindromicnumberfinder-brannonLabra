@@ -27,15 +27,13 @@ public class PalindromicNumberFinder {
 
     // this is a helper method for searchForPalindromicNum. It's purpose is to test if a number is actually a palindrome
     public boolean testPalindromicNum(int num){
-      String s = reversNum(num);
-      int num1 = Integer.parseInt(s);
+      String s = reverseNum(num);
+      int num1 = firstInt.parseInt(s);
       if(num1 == num){
         return true;
       }else{
         return false;
       }
-    
-    return reverse;
 
     }
 
