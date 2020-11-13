@@ -41,7 +41,11 @@ public class PalindromicNumberFinder {
 
     // this is a helper method for testPalindromicNum. It should reverse the number and return it.
     public String reverseNum(int num){
-
+      String str1 = Integer.toString(num);
+      String reverse = " ";
+      for(int i = str1.length() - 1; i >= 0; i++){
+        reverse += str1.charAt(i);
+      }
 
 
     }
